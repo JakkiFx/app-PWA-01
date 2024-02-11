@@ -1,12 +1,17 @@
-.flex {
-    display: flex;
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  font-family: "Inter", sans-serif;
 }
 
-.flex-row {
-    flex-direction: row;
-}
-
-.input-text {
-    background-color: #F6F6F6;
-    border: 2px solid #BDBDBD;
+:root {
+  --white: #fff;
+  --black: #000;
+  --ciano: #45fefe;
+  --light: #f6f6f6;
+  --light-stroke: #e8e8e8;
 }

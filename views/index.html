@@ -3,12 +3,28 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/index.css" />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="../css/index.css" />
+    <link rel="stylesheet" href="../css/styles.css" />
     <title>IMC | @dev_jakkifx</title>
   </head>
 
   <body>
-    
+    <div class="index">
+        <h1>Cálculo de IMC</h1>
+
+        <div class="index__box">
+            <input type="text" placeholder="Altura" class="index__box__field">
+            <input type="text" placeholder="Peso" class="index__box__field">
+            <input type="text" placeholder="Sexo" class="index__box__field">
+
+            <div class="index__box__checkbox">
+                <input type="checkbox" name="check" id="check">
+                <span>Eu tenho 65 anos ou mais</span>
+            </div>
+
+            <input type="submit" class="index__box__button" value="Calcular meu IMC">
+            <input type="submit" class="index__box__button-outline" value="Entenda o cálculo">
+        </div>
+    </div>
   </body>
 </html>
